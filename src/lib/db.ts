@@ -24,8 +24,8 @@ export interface User {
 const users: User[] = [
   {
     id: "u_demo",
-    name: "Jordan Blake",
-    email: "demo@northline.app",
+    name: "Priyanga J",
+    email: "priyanga.j@northline.app",
     // password: "demo1234"
     passwordHash: bcrypt.hashSync("demo1234", 10),
     company: "Northline Labs",
